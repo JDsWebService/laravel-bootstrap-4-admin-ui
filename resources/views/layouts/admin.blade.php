@@ -35,6 +35,9 @@
                     @component('components.debug.auth')
                     @endcomponent
                     
+                    <h3>@yield('title')</h3>
+                    <hr>
+                    
                     {{-- Flash Messages --}}
                     @include('partials.global._messages')
 
